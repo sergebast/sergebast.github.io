@@ -1,25 +1,24 @@
 {
-  "name": "html-tmp",
+  "name": "sergebast.github.io",
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "dev": "parcel watch src/**/*.* && parcel src/index.html --open",
-    "build": "parcel build src/index.html --public-url /html-tmp/",
+    "dev": "parcel watch src/**/*.* && parcel src/index.html --open firefox",
+    "build": "parcel build src/index.html",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sergebast/html-tmp.git"
+    "url": "git+https://github.com/sergebast/sergebast.github.io.git"
   },
   "author": "Sergey Bast <sbast.dev@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sergebast/html-tmp/issues"
+    "url": "https://github.com/sergebast/sergebast.github.io/issues"
   },
-  "homepage": "https://github.com/sergebast/html-tmp#readme",
-  "publicUrl": "/html-tmp",
+  "homepage": "https://github.com/sergebast/sergebast.github.io#readme",
   "devDependencies": {
     "@parcel/config-default": "^2.9.1",
     "@parcel/transformer-sass": "^2.9.1",
