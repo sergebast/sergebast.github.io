@@ -5,9 +5,9 @@
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "dev": "parcel watch src/**/*.* && parcel src/index.html --open firefox",
-    "build": "parcel build src/index.html",
-    "deploy": "npm run build && gh-pages -d dist"
+    "dev": "parcel src/index.html --open firefox",
+    "build": "parcel build src/index.html --dist-dir output",
+    "deploy": "npm run build && gh-pages -d output"
   },
   "repository": {
     "type": "git",
